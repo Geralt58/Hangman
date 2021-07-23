@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="Images/favicon.png" rel="icon">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div> 
+        <h1 class="selections">Hangman Game</h1>
+        <p>Number of words: <select id="word-count" class="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select></p>
+        </p>Number of Wrong guesses allowed: <select id="difficulty" class="dropdown">
+            <option value="10">Easy: 10</option>
+            <option value="8">Medium: 8</option>
+            <option value="6">Hard: 6</option>
+        </select></p>
+        <button id="start" class="button">Start</button>
+        <div id="puzzle" class="puzzle"></div>
+        <div class="bottom-text">
+            <p id="guesses"></p>
+            <p id="guess-letters"></p>
+            <p id="reminder"></p>
+        </div>
+    </div>  
+    <script src="scripts/bundle.js"></script>
+</body>
+</html>
+    
