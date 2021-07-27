@@ -9,3 +9,5 @@ Steps to play the game:
 A simple hangman application I made with the help of tutorials while learning code for vanilla javascript. Made use of the aync-await along with the fetch apis. The difference between the previous hangman-legacy application and this one is that it is carried over to a webpack package and made with a compatible file structure.
 
 To run the file in your local repository, open the root folder in your terminal and use 'npm install' to install the node modules. Then use 'npm run dev-server' to host the dev server and use 'npm run build' to build the production files.
+
+The link to the website can be found in the repository description.
