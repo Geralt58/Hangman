@@ -13,10 +13,87 @@ body {
     color: #fafafa;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+}
+
+#container {
+    background-color: #474151;
+    border-radius: 10px;
+    padding: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#header {
+    border-radius: 10px;
+    background-color: #2B292E;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#selections {
+    background-color: #7044a0;
+    padding: 2rem;
+    border-radius: 10px 10px 0 0;
+    border-bottom: px whitesmoke solid;
+    width: 100%;
+}
+
+#header p {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    cursor: pointer;
+    width: 100px;
+    margin-left: 1rem;
+    background-color: #474151;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    height: 3rem;
+    margin-right: .8rem;
+    border-radius: 3px;
+    transition: background .3s ease, color .3s ease;
+}
+
+#start {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background .3s ease, color .3s ease;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.start {
+    background: #7044a0;
+    border-bottom: 2px solid #603a88;
+}
+
+.start:hover {
+    background: #5F3A87;
+}
+
+.reset {
+    background: #6e6978;
+    border-bottom: 2px solid #605b6a;
+}
+
+.reset:hover {
+    background: #36333b;
 }
 
 span {
@@ -58,39 +135,6 @@ p {
 
 .puzzleLose {
     color: red;
-}
-
-
-.button {
-    background: #7044a0;
-    border: none;
-    border-bottom: 2px solid #603a88;
-    cursor: pointer;
-    color: white;
-    font-size: 1.4rem;
-    font-weight: 300;
-    padding: .8rem;
-    transition: background .3s ease, color .3s ease;
-    border-radius: 3px;
-}
-
-.button:hover {
-    background: #5F3A87;
-}
-
-.dropdown {
-    border: 1px solid #DEDFE0;
-    background: white;
-    font-size: 1.4rem;
-    font-weight: 300;
-    height: 3rem;
-    margin-right: .8rem;
-    border-radius: 3px;
-    transition: background .3s ease, color .3s ease;
-}
-
-.dropdown:hover {
-    background: #e8def3;
 }
 
 #reminder {
